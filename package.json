@@ -1,0 +1,19 @@
+{
+  "name": "torture-server",
+  "version": "0.0.0",
+  "description": "tortureServer",
+  "main": "app.js",
+  "author": "",
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
