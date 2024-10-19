@@ -106,7 +106,8 @@ io.on('connection', (socket) => {
 
 
     socket.on("startGame", (code) => {
-        io.to(code).emit('gameStart', (code));
+        console.log(code);
+        io.to(code).emit('gameStart', code);
     })
 
     socket.on('joinRoom', (roomName, player) => {
